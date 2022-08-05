@@ -1,0 +1,33 @@
+{
+    "name" : "Zain",
+    "Score" : "100",
+    "isAdmin": false,
+    "license": null,
+    "shopIteam" : ["food", "Phone", "sun oil"],
+    "myObj": {
+        "name" : "Azra",
+        "marks": 50,
+        "shopIteam2" : ["food", "Phone", {"a": true}]
+    }
+}
+
+
+
+
+// myJson =`{
+//     "name" : "Zain",
+//     "Score" : "100",
+//     "isAdmin": false,
+//     "license": null,
+//     "shopIteam" : ["food", "Phone", "sun oil"],
+//     "myObj": {
+//         "name" : "Azra",
+//         "marks": 50,
+//         "shopIteam2" : ["food", "Phone", {"a": true}]
+//     }
+// }`;
+// '{\n    "name" : "Zain",\n    "Score" : "100",\n    "isAdmin": false,\n    "license": null,\n    "shopIteam" : ["food", "Phone", "sun oil"],\n    "myObj": {\n        "name" : "Azra",\n        "marks": 50,\n        "shopIteam2" : ["food", "Phone", {"a": true}]\n    }\n}'
+// parsed = JSON.parse(myJson);
+// {name: 'Zain', Score: '100', isAdmin: false, license: null, shopIteam: Array(3), …}Score: "100"isAdmin: falselicense: nullmyObj: {name: 'Azra', marks: 50, shopIteam2: Array(3)}name: "Zain"shopIteam: (3) ['food', 'Phone', 'sun oil'][[Prototype]]: Objectconstructor: ƒ Object()hasOwnProperty: ƒ hasOwnProperty()isPrototypeOf: ƒ isPrototypeOf()propertyIsEnumerable: ƒ propertyIsEnumerable()toLocaleString: ƒ toLocaleString()toString: ƒ toString()valueOf: ƒ valueOf()__defineGetter__: ƒ __defineGetter__()__defineSetter__: ƒ __defineSetter__()__lookupGetter__: ƒ __lookupGetter__()__lookupSetter__: ƒ __lookupSetter__()__proto__: (...)get __proto__: ƒ __proto__()set __proto__: ƒ __proto__()
+// parsed["myObj"]['shopIteam2']
+// (3) ['food', 'Phone', {…}]0: "food"1: "Phone"2: {a: true}length: 3[[Prototype]]: Array(0)
